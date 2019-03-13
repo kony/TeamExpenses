@@ -1,0 +1,29 @@
+{
+    "AS_Button_bcbbea4d3eea4ae3865616abc7180037": {
+        "id": "AS_Button_bcbbea4d3eea4ae3865616abc7180037",
+        "type": "ACTION_SEQUENCE",
+        "name": "OnClearSearch",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDashboardKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ef61e9dfc1d749058e1b77f5e4c92d8e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___d3fb35337692435c9aea827c3dcc6a2d",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "clearSearchByEmployeeName",
+            "display": "clearSearchByEmployeeName",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

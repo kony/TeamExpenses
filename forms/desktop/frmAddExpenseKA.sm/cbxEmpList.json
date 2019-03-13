@@ -1,0 +1,99 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizCheckBox",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s8893aeffdd845d09fa06fd285f36df6",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "89.17%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "id": "cbxEmpList",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "viewType": 4
+        }
+    },
+    "iphone": {
+        "psp": {
+            "viewType": 4
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "itemorientation": "horizontal",
+    "kiosk": {
+        "psp": {
+            "toolTip": "List of team members"
+        }
+    },
+    "kuid": "d223f8761978466a9c0a21663512d734",
+    "masterdata": [
+        [
+            "cbg1",
+            "Harshini Bonam"
+        ],
+        [
+            "cbg2",
+            "Archana Narahari"
+        ],
+        [
+            "cbg3",
+            "Haritha Kintala"
+        ]
+    ],
+    "name": "kony.ui.CheckBoxGroup",
+    "orientation": "horizontal",
+    "parent": "flxScrollList",
+    "pf": "frmAddExpenseKA",
+    "responsiveData": {
+        "b1": {
+            "height": {
+                "type": "string",
+                "value": "100%"
+            },
+            "skin": "sf1c53105f4741d4a54d5d9fe553ed27",
+            "width": {
+                "type": "string",
+                "value": "93%"
+            }
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkey": null,
+    "selectedkeys": [],
+    "selectedkeyvalue": null,
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewtype": 0,
+    "wType": "CheckBoxGroup",
+    "widgetalignment": 5,
+    "zindex": 1
+}

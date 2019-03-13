@@ -1,0 +1,71 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "create" : "createMapping",
+    "update" : "updateMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "UpdateTimeStampField" : {
+      "DateFormat" : "",
+      "Name" : "LastUpdatedDateTime"
+    },
+    "SoftDeleteFlagField" : {
+      "ActiveValue" : "false",
+      "InactiveValue" : "true",
+      "Name" : "SoftDeleteFlag"
+    },
+    "backendMeta" : {
+      "backendObjectName" : "expense",
+      "qualifiedName" : "expense.expense",
+      "metadataformatterobject" : "{\"name\":\"expense\",\"displayName\":\"expense\",\"qualifiedName\":\"expense.expense\",\"schemaName\":\"expense\",\"tableName\":\"expense\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "expense",
+      "qualifiedName" : "expense.expense",
+      "metadataformatterobject" : "{\"name\":\"expense\",\"displayName\":\"expense\",\"qualifiedName\":\"expense.expense\",\"schemaName\":\"expense\",\"tableName\":\"expense\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "expenditure",
+    "targetField" : "expenditure",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "LastUpdatedBy",
+    "targetField" : "LastUpdatedBy",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "CreatedBy",
+    "targetField" : "CreatedBy",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "name",
+    "targetField" : "name",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "id",
+    "targetField" : "id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "SoftDeleteFlag",
+    "targetField" : "SoftDeleteFlag",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "categoryID",
+    "targetField" : "categoryID",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "CreatedDateTime",
+    "targetField" : "CreatedDateTime",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "LastUpdatedDateTime",
+    "targetField" : "LastUpdatedDateTime",
+    "type" : "request_response"
+  } ]
+}

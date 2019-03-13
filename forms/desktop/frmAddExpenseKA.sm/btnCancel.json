@@ -1,0 +1,77 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "302dp"
+    },
+    "_skin_": "s83729feaa224e359d660d5af05c4bac",
+    "_text_": "CANCEL",
+    "_width_": {
+        "type": "string",
+        "value": "257dp"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "desktopweb": {
+        "psp": {
+            "hoverSkin": "s83729feaa224e359d660d5af05c4bac"
+        }
+    },
+    "disabledSkins": {
+        "blockedUISkin": "s1400c825f384a46b15a0f8d6829ecef",
+        "focusSkin": "sf44d06ca8224832827ea7fdff757013"
+    },
+    "displaytext": true,
+    "focusskin": null,
+    "id": "btnCancel",
+    "ide_onClick": "AS_Button_dabab780b41e481280d8bc1ed53739a3",
+    "info": null,
+    "isvisible": true,
+    "kuid": "h19f5f3b9dca40cf9062593ab45df422",
+    "name": "kony.ui.Button",
+    "parent": "flxButtonsKA",
+    "pf": "frmAddExpenseKA",
+    "responsiveData": {
+        "b1": {
+            "centerY": {
+                "type": "string",
+                "value": "50.00%"
+            },
+            "right": {
+                "type": "string",
+                "value": "260dp"
+            },
+            "width": {
+                "type": "string",
+                "value": "200dp"
+            }
+        }
+    },
+    "texti18n": "i18n.transfers.Cancel",
+    "tooltip": "Cancel",
+    "wType": "Button",
+    "zindex": 1
+}

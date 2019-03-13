@@ -1,0 +1,30 @@
+{
+    "AS_Button_bf15756bf6b74753b6ed50044dbbb695": {
+        "id": "AS_Button_bf15756bf6b74753b6ed50044dbbb695",
+        "type": "ACTION_SEQUENCE",
+        "name": "OnClickCancelEmployee",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAddEmployeeKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d7606edd3b744e14ae03a86a3edd709f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___gf414e8fce4948f2afa4cd3c29a01efd",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmDashboardKA",
+            "formKUID": "ef61e9dfc1d749058e1b77f5e4c92d8e",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": ""
+        }]
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "AS_Image_d25b4fe7f90b4a888d74416752ae4282": {
+        "id": "AS_Image_d25b4fe7f90b4a888d74416752ae4282",
+        "type": "ACTION_SEQUENCE",
+        "name": "OnSelectAllEmployees",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmAddExpenseKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "fae161780bc84f63bb4cb9ba85243fc3"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___deff1f900e47449594d3889612653a89",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "selectAll",
+            "display": "selectAll",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

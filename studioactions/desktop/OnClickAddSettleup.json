@@ -1,0 +1,29 @@
+{
+    "AS_Button_d8a651b86f6f4a2eaef1a1e9342aa434": {
+        "id": "AS_Button_d8a651b86f6f4a2eaef1a1e9342aa434",
+        "type": "ACTION_SEQUENCE",
+        "name": "OnClickAddSettleup",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSettleupKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ff8d777c4e804a0781cfdf429dca8e04"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___f2dfc4df207547c88ad34ee7012650d6",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "settleUp",
+            "display": "settleUp",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

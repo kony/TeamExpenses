@@ -1,0 +1,30 @@
+{
+    "AS_Button_dabab780b41e481280d8bc1ed53739a3": {
+        "id": "AS_Button_dabab780b41e481280d8bc1ed53739a3",
+        "type": "ACTION_SEQUENCE",
+        "name": "OnCancelExpense",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAddExpenseKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "fae161780bc84f63bb4cb9ba85243fc3"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___f9da3ad1658c4901ab35ab0bfb06fe65",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmDashboardKA",
+            "formKUID": "ef61e9dfc1d749058e1b77f5e4c92d8e",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": ""
+        }]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "AS_ListBox_b52950154bd745bebc8a536a84552bad": {
+        "id": "AS_ListBox_b52950154bd745bebc8a536a84552bad",
+        "type": "ACTION_SEQUENCE",
+        "name": "OnExpenseSelection",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSettleupKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ff8d777c4e804a0781cfdf429dca8e04"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___dac4fab0e0df412cba3f9f4c306fc456",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "OnExpenseSelectionChanged",
+            "display": "OnExpenseSelectionChanged",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

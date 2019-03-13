@@ -1,0 +1,29 @@
+{
+    "AS_Button_c3e417c8ced849d8a693d5fa814a9d2f": {
+        "id": "AS_Button_c3e417c8ced849d8a693d5fa814a9d2f",
+        "type": "ACTION_SEQUENCE",
+        "name": "OnClickSync",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDashboardKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ef61e9dfc1d749058e1b77f5e4c92d8e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___h1b8829b2dce4da1a2e98c03a397c9d7",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "syncExpenseOS",
+            "display": "syncExpenseOS",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "AS_Image_f14fc8b86904457eb65380c7eec94145": {
+        "id": "AS_Image_f14fc8b86904457eb65380c7eec94145",
+        "type": "ACTION_SEQUENCE",
+        "name": "OnClearAllEmployees",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmAddExpenseKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "fae161780bc84f63bb4cb9ba85243fc3"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___ead95caf0ffb473493ae2cb22b4c7201",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "clearAll",
+            "display": "clearAll",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

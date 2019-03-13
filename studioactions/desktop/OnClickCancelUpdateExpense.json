@@ -1,0 +1,30 @@
+{
+    "AS_Button_ca0a59e63bac40da80596d6a707bd2bb": {
+        "id": "AS_Button_ca0a59e63bac40da80596d6a707bd2bb",
+        "type": "ACTION_SEQUENCE",
+        "name": "OnClickCancelUpdateExpense",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmUpdateExpenseKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ebb6482c86734fcb8209b4f564911136"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___fd2d288b2fb44182a968aaae67685174",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmDashboardKA",
+            "formKUID": "ef61e9dfc1d749058e1b77f5e4c92d8e",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": ""
+        }]
+    }
+}

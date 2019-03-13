@@ -1,0 +1,25 @@
+{
+    "AS_Image_abd7a1418d504ef3bb94ac26d2fd6665": {
+        "id": "AS_Image_abd7a1418d504ef3bb94ac26d2fd6665",
+        "type": "ACTION_SEQUENCE",
+        "name": "OnSelectAllEmps",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmUpdateExpenseKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ebb6482c86734fcb8209b4f564911136"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

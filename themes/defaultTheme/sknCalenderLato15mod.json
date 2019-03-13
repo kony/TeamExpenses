@@ -1,0 +1,113 @@
+{
+  "android": {
+    "font_color": "424242ff",
+    "font_size": 36,
+    "isForked": true
+  },
+  "background_color": "ffffff33",
+  "bg_type": "one",
+  "border_color": "72727233",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "desktopweb": {
+    "customCSS": "cursor:pointer !important;",
+    "font_color": "424242ff",
+    "font_name": "Lato-Regular",
+    "font_size": 125,
+    "isCustomCSSEnabled": false,
+    "isForked": true
+  },
+  "fontSizeInPx": true,
+  "font_color": "000000ff",
+  "font_name": "Helvetica",
+  "font_size": 125,
+  "font_style": "normal",
+  "font_weight": "normal",
+  "ipad": {
+    "font_color": "424242ff",
+    "font_size": 54,
+    "isForked": true
+  },
+  "iphone": {
+    "font_color": "424242ff",
+    "font_size": 54,
+    "isForked": true
+  },
+  "isDefaultSkin": false,
+  "kiosk": {
+    "font_color": "424242ff",
+    "font_size": 94,
+    "isForked": true
+  },
+  "kuid": "s4edc97d2a814f43b38f77b1f77c1588",
+  "spaan": {
+    "customCSS": "cursor:pointer !important;",
+    "font_color": "424242ff",
+    "font_size": 125,
+    "isCustomCSSEnabled": false,
+    "isForked": true
+  },
+  "spaandroidtablet": {
+    "customCSS": "cursor:pointer !important;",
+    "font_color": "424242ff",
+    "font_size": 125,
+    "isCustomCSSEnabled": false,
+    "isForked": true
+  },
+  "spabb": {
+    "customCSS": "cursor:pointer !important;",
+    "font_color": "424242ff",
+    "font_size": 125,
+    "isCustomCSSEnabled": false,
+    "isForked": true
+  },
+  "spaip": {
+    "customCSS": "cursor:pointer !important;",
+    "font_color": "424242ff",
+    "font_size": 125,
+    "isCustomCSSEnabled": false,
+    "isForked": true
+  },
+  "spaipad": {
+    "customCSS": "cursor:pointer !important;",
+    "font_color": "424242ff",
+    "font_size": 125,
+    "isCustomCSSEnabled": false,
+    "isForked": true
+  },
+  "spawindowstablet": {
+    "customCSS": "cursor:pointer !important;",
+    "font_color": "424242ff",
+    "font_size": 125,
+    "isCustomCSSEnabled": false,
+    "isForked": true
+  },
+  "spawinphone8": {
+    "customCSS": "cursor:pointer !important;",
+    "font_color": "424242ff",
+    "font_size": 125,
+    "isCustomCSSEnabled": false,
+    "isForked": true
+  },
+  "tabrcandroid": {
+    "font_color": "424242ff",
+    "font_size": 89,
+    "isForked": true
+  },
+  "wType": "Calendar",
+  "watchos": {
+    "font_size": 54,
+    "isForked": false
+  },
+  "windows8": {
+    "font_color": "424242ff",
+    "font_size": 37,
+    "isForked": true
+  },
+  "winphone8": {
+    "font_color": "424242ff",
+    "font_size": 50,
+    "isForked": true
+  }
+}

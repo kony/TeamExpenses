@@ -1,0 +1,66 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "28dp"
+    },
+    "_skin_": "s32f67802321463884107a44440d62c8",
+    "_text_": "PROCEED",
+    "_width_": {
+        "type": "string",
+        "value": "257dp"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "desktopweb": {},
+    "disabledSkins": {
+        "blockedUISkin": "s1400c825f384a46b15a0f8d6829ecef",
+        "focusSkin": "sf44d06ca8224832827ea7fdff757013"
+    },
+    "displaytext": true,
+    "focusskin": null,
+    "id": "btnProceed",
+    "ide_onClick": "AS_Button_ca4809e9b7e648a9b2816978f4d7c30b",
+    "info": null,
+    "isvisible": true,
+    "kuid": "je155967ed0544d6946cfbf80154fcb1",
+    "name": "kony.ui.Button",
+    "parent": "flxButtonsKA",
+    "pf": "frmAddExpenseKA",
+    "responsiveData": {
+        "b1": {
+            "text": "DONE",
+            "width": {
+                "type": "string",
+                "value": "200dp"
+            }
+        }
+    },
+    "texti18n": "i18n.common.continue",
+    "tooltip": "Continue",
+    "wType": "Button",
+    "zindex": 1
+}

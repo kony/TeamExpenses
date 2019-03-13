@@ -1,0 +1,84 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "150dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "119dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s4739f773d074adf80a2fd49ad6320dd",
+    "_src_": "imagedrag.png",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "150dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "context": {
+        "channel": "desktop",
+        "formID": "frmUpdateExpenseKA",
+        "platform": "desktopweb",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "id": "imgClearAll",
+    "ide_onTouchStart": "AS_Image_ga29b534cfeb4a5f9d782a82d3105c20",
+    "imagescalemode": 1,
+    "info": null,
+    "invokedProperty": "src",
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ace85a629dec439182e342d9a382fd44",
+    "name": "kony.ui.Image2",
+    "parent": "flxEmployeesKA",
+    "pf": "frmUpdateExpenseKA",
+    "responsiveData": {
+        "b1": {
+            "height": {
+                "type": "string",
+                "value": "23dp"
+            },
+            "left": {
+                "type": "string",
+                "value": "300dp"
+            },
+            "src": "icon_radiobtn.png",
+            "top": {
+                "type": "string",
+                "value": "16dp"
+            },
+            "width": {
+                "type": "string",
+                "value": "23dp"
+            }
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "srcType": 1,
+    "tooltip": "Clear the selection",
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}

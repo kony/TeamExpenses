@@ -1,0 +1,39 @@
+{
+    "AS_Form_d81bb8baf9d84f41b96329431e6e0e86": {
+        "id": "AS_Form_d81bb8baf9d84f41b96329431e6e0e86",
+        "type": "ACTION_SEQUENCE",
+        "name": "OnPostShowPopulateData",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAddExpenseKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "fae161780bc84f63bb4cb9ba85243fc3"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___e073e719fded4f8dae025260c61483f1",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "resetAddExpenseForm",
+            "display": "resetAddExpenseForm",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }, {
+            "id": "INVOKE_FUNCTION___c257f7a047504dd9b8318141053eecce",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "populateDataInAddExpenseForm",
+            "display": "populateDataInAddExpenseForm",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

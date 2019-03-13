@@ -1,0 +1,138 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "imgCategory": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "wallet.png"
+            },
+            "lblAmount": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "₹400.00"
+            },
+            "lblCategoryName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Category Name"
+            },
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "12th Feb 2017"
+            },
+            "lblID": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "id"
+            },
+            "lblLine": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblToValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Expense Description"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "00",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segExpenses",
+    "ide_onRowClick": "AS_Segment_i526e3f231844ef9bc60f25f4bf372a2",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "a0479d06d2384b448cbf2c0a2a41c93b",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxData2KA",
+    "pf": "frmDashboardKA",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "ga31dec8c20445b085c6523514cf567a",
+    "rowcounter": 0,
+    "rowfocusskin": "sba9f59fe8344536848f4b90cc142df5",
+    "rowskin": "sf1d8817740940d690c5829803a56b95",
+    "rowtemplate": "flxExpenseTracking",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s73c745e7387470fbc34dbe87e462371",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxExpenseTracking": "flxExpenseTracking",
+        "imgCategory": "imgCategory",
+        "lblAmount": "lblAmount",
+        "lblCategoryName": "lblCategoryName",
+        "lblDate": "lblDate",
+        "lblID": "lblID",
+        "lblLine": "lblLine",
+        "lblToValue": "lblToValue"
+    },
+    "zindex": 1
+}

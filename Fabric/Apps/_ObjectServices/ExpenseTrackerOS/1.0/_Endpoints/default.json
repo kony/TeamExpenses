@@ -1,0 +1,17 @@
+{
+  "name" : "default",
+  "dataAdapterId" : "1",
+  "type" : "CustomDataAdapter",
+  "encryptSecureInfo" : false,
+  "config" : {
+    "authservicetype" : "IdentityProvider",
+    "jdbcClass" : "com.mysql.jdbc.Driver",
+    "jdbcUrl" : "jdbc:mysql://115.114.92.62:3307",
+    "userId" : "root",
+    "password" : "kony123!",
+    "advancedSettings" : "{\"SoftDeleteFlag\":\"is_disabled\"}",
+    "maxPoolSize" : "20",
+    "connectionTimeout" : "60000"
+  },
+  "jsonpath" : false
+}

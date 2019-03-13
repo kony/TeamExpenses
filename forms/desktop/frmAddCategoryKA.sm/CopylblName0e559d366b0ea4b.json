@@ -1,0 +1,66 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "25%"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sd9fada740124e4a99edc1f0a05ec2d0",
+    "_text_": "Description",
+    "_width_": {
+        "type": "string",
+        "value": "150dp"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 6,
+    "id": "CopylblName0e559d366b0ea4b",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "isvisible": true,
+    "kuid": "d2c81874a8304984a8ac2f280e7389a9",
+    "name": "kony.ui.Label",
+    "parent": "CopyflxExpenseName0fa8aa9e7f1a34c",
+    "pf": "frmAddCategoryKA",
+    "texti18n": "i18n.StopcheckPayments.CheckNumber",
+    "tooltip": "",
+    "wType": "Label",
+    "zindex": 1
+}

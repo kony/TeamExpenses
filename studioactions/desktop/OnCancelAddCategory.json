@@ -1,0 +1,30 @@
+{
+    "AS_Button_f181de68d9d14d7d87c4f6382a6f09ad": {
+        "id": "AS_Button_f181de68d9d14d7d87c4f6382a6f09ad",
+        "type": "ACTION_SEQUENCE",
+        "name": "OnCancelAddCategory",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAddCategoryKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "h8a41268048e45d0a3ec1c7efd9d4738"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___b48dddad549b452db15b6b38108641aa",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmAddExpenseKA",
+            "formKUID": "fae161780bc84f63bb4cb9ba85243fc3",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": ""
+        }]
+    }
+}

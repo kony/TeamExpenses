@@ -1,0 +1,18 @@
+{    
+"theme_color": "#FF0000",
+"orientation": "landscape",    
+"background_color": "#9E9E9E",    
+"display": "standalone",    
+"name": "ExpenseTrack",    
+"short_name": "Expense",
+"start_url": "/apps/teamExpenseTrack/",
+"icons": [{      
+"src": "launchicon-192.png",      
+"type": "image/png",      
+"sizes": "192x192"
+},    {
+"src": "launchicon-512.png",      
+"type": "image/png",      
+"sizes": "512x512"    
+}]   
+}

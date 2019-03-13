@@ -1,0 +1,75 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "1071dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s9968db2064944a38e45c9d9bc3d5a83",
+    "_text_": "Button",
+    "_top_": {
+        "type": "string",
+        "value": "28dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "260dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s4b28ed5e9774a698c3ad61c025b1cf5",
+    "id": "Button0afa7cde1b25447",
+    "ide_onClick": "AS_Button_eb1c300ff46241b18a4d5e79c35612cc",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "h0f8bb53aa074e70a7a9d4e598f88628",
+    "name": "kony.ui.Button",
+    "parent": "flxAmountSelectCategory",
+    "pf": "frmAddExpenseKA",
+    "responsiveData": {
+        "b1": {
+            "focusSkin": "s92c0eed0b414cd290d05e9180f01cfb",
+            "height": {
+                "type": "string",
+                "value": "40dp"
+            },
+            "left": {
+                "type": "string",
+                "value": "92%"
+            },
+            "skin": "s9968db2064944a38e45c9d9bc3d5a83",
+            "top": {
+                "type": "string",
+                "value": "35dp"
+            },
+            "width": {
+                "type": "string",
+                "value": "40dp"
+            }
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

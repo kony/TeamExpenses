@@ -1,0 +1,54 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "3%"
+    },
+    "_skin_": "s9968db2064944a38e45c9d9bc3d5a83",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "39dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {},
+    "displaytext": false,
+    "focusskin": "s92c0eed0b414cd290d05e9180f01cfb",
+    "id": "btnAddEmployee",
+    "ide_onClick": "AS_Button_cba419bb0250418ab3c65d2b6f6f0222",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "h861677928c4424284f1425d237954af",
+    "name": "kony.ui.Button",
+    "parent": "flxSearchKA",
+    "pf": "frmDashboardKA",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

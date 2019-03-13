@@ -1,0 +1,80 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "3.7699999999999996%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s10a240ff40146de8fe3b093d819809b",
+    "_top_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "45.40%"
+    },
+    "allboxes": [],
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "children": [
+        "tbxTotalShare",
+        "CopylblCurrencySymbol0i89b8cc9d52f47"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "desktopweb": {
+        "psp": {
+            "hoverSkin": "s30a9cf8af664a65907169e38b6f3912"
+        }
+    },
+    "disabledSkins": {},
+    "enablescrolling": true,
+    "focusskin": "s30a9cf8af664a65907169e38b6f3912",
+    "id": "flxTotalShare",
+    "info": null,
+    "isvisible": true,
+    "kuid": "c3fafb7864e4469cb8bce5aab93d3ae1",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxTotalAmount",
+    "pf": "frmSettleupKA",
+    "responsiveData": {
+        "b1": {
+            "height": {
+                "type": "string",
+                "value": "42dp"
+            },
+            "left": {
+                "type": "string",
+                "value": "30dp"
+            }
+        }
+    },
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

@@ -1,0 +1,32 @@
+{
+    "AS_Button_be2f20c7e07d424ab212e29e4add17b4": {
+        "id": "AS_Button_be2f20c7e07d424ab212e29e4add17b4",
+        "type": "ACTION_SEQUENCE",
+        "name": "OnClickSettleup",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "segEmployeeList",
+            "type": "templates",
+            "platform": "",
+            "KUID": "bfa9c1b065074127b29dc96468d5dae7"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___cbac3b2791f04087af69a61f369ecca6",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "populateDataInSettleupForm",
+            "display": "populateDataInSettleupForm",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

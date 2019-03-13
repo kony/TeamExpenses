@@ -1,0 +1,30 @@
+{
+    "AS_Button_c1299eeb06b3407a997ff97ee269cd02": {
+        "id": "AS_Button_c1299eeb06b3407a997ff97ee269cd02",
+        "type": "ACTION_SEQUENCE",
+        "name": "onClickDeleteExpense",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmUpdateExpenseKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ebb6482c86734fcb8209b4f564911136"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___j298388bc919489ab29f14525715a090",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmDashboardKA",
+            "formKUID": "ef61e9dfc1d749058e1b77f5e4c92d8e",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": ""
+        }]
+    }
+}

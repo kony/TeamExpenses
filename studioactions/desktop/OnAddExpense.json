@@ -1,0 +1,29 @@
+{
+    "AS_Button_ca4809e9b7e648a9b2816978f4d7c30b": {
+        "id": "AS_Button_ca4809e9b7e648a9b2816978f4d7c30b",
+        "type": "ACTION_SEQUENCE",
+        "name": "OnAddExpense",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAddExpenseKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "fae161780bc84f63bb4cb9ba85243fc3"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___a1e534723be84612a5f1ad6f5b5c4cdb",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "addExpense",
+            "display": "addExpense",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "25px"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "30px"
+    },
+    "_skin_": "s82771fb0d3040339aab7fd2e47af223",
+    "_text_": "Settle up",
+    "_top_": {
+        "type": "string",
+        "value": "35px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "30%"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 6,
+    "desktopweb": {
+        "psp": {
+            "hoverSkin": "sd36babbd8f6461f8b492698ab830d13"
+        }
+    },
+    "disabledSkins": {
+        "focusSkin": "s39489ea44db4833b71044279e89eff9"
+    },
+    "displaytext": true,
+    "id": "btnPay",
+    "ide_onClick": "AS_Button_be2f20c7e07d424ab212e29e4add17b4",
+    "info": null,
+    "isvisible": true,
+    "kuid": "j1f31e36f3974ac392632be7d5d71671",
+    "name": "kony.ui.Button",
+    "parent": "flxEmployeeTracking",
+    "pf": "segEmployeeList",
+    "texti18n": "i18n.AccountDetails.MAKETRANSFER",
+    "tooltip": "Make Transfer",
+    "wType": "Button",
+    "zindex": 1
+}

@@ -1,0 +1,75 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "create" : "createMapping",
+    "update" : "updateMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "UpdateTimeStampField" : {
+      "DateFormat" : "",
+      "Name" : "LastUpdatedDateTime"
+    },
+    "SoftDeleteFlagField" : {
+      "ActiveValue" : "false",
+      "InactiveValue" : "true",
+      "Name" : "SoftDeleteFlag"
+    },
+    "backendMeta" : {
+      "backendObjectName" : "employee_expense",
+      "qualifiedName" : "expense.employee_expense",
+      "metadataformatterobject" : "{\"name\":\"employee_expense\",\"displayName\":\"employee_expense\",\"qualifiedName\":\"expense.employee_expense\",\"schemaName\":\"expense\",\"tableName\":\"employee_expense\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "employee_expense",
+      "qualifiedName" : "expense.employee_expense",
+      "metadataformatterobject" : "{\"name\":\"employee_expense\",\"displayName\":\"employee_expense\",\"qualifiedName\":\"expense.employee_expense\",\"schemaName\":\"expense\",\"tableName\":\"employee_expense\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "LastUpdatedBy",
+    "targetField" : "LastUpdatedBy",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "CreatedBy",
+    "targetField" : "CreatedBy",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "expenseID",
+    "targetField" : "expenseID",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "employeeID",
+    "targetField" : "employeeID",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "comment",
+    "targetField" : "comment",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "SoftDeleteFlag",
+    "targetField" : "SoftDeleteFlag",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "employeeShare",
+    "targetField" : "employeeShare",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "CreatedDateTime",
+    "targetField" : "CreatedDateTime",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "LastUpdatedDateTime",
+    "targetField" : "LastUpdatedDateTime",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "status",
+    "targetField" : "status",
+    "type" : "request_response"
+  } ]
+}

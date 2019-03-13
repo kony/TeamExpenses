@@ -1,0 +1,35 @@
+{
+    "AS_Segment_i526e3f231844ef9bc60f25f4bf372a2": {
+        "id": "AS_Segment_i526e3f231844ef9bc60f25f4bf372a2",
+        "type": "ACTION_SEQUENCE",
+        "name": "OnRowClickExpense",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmDashboardKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ef61e9dfc1d749058e1b77f5e4c92d8e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___ca1d191658144b4ebbdfa36f1ba690f8",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "populateDataInUpdateExpenseForm",
+            "display": "populateDataInUpdateExpenseForm",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

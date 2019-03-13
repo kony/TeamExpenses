@@ -1,0 +1,35 @@
+{
+    "AS_Image_ga29b534cfeb4a5f9d782a82d3105c20": {
+        "id": "AS_Image_ga29b534cfeb4a5f9d782a82d3105c20",
+        "type": "ACTION_SEQUENCE",
+        "name": "OnClearAllEmp",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmUpdateExpenseKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ebb6482c86734fcb8209b4f564911136"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___h0827175dc2246edb2581c2dd89df819",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "clearAll",
+            "display": "clearAll",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

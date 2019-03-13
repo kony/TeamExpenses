@@ -1,0 +1,49 @@
+{
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "60px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sd889fdd715146e8a9f5e62b2940da1d",
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "lblCategory",
+        "lblCategoryDesc",
+        "btnPay",
+        "lblLine",
+        "lblID"
+    ],
+    "clipbounds": true,
+    "containerId": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxEmployeeTracking",
+    "info": null,
+    "isTemplate": true,
+    "isvisible": true,
+    "kuid": "c2d878b319984e5994a108aed7ad7cac",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "segEmployeeList",
+    "pf": "segEmployeeList",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1
+}

@@ -1,0 +1,69 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "480dp"
+    },
+    "_skin_": "sd348f398d5c4438b5b9fbc53d32a850",
+    "_text_": "DELETE",
+    "_width_": {
+        "type": "string",
+        "value": "257dp"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50.00%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "desktopweb": {},
+    "disabledSkins": {
+        "blockedUISkin": "s1400c825f384a46b15a0f8d6829ecef",
+        "focusSkin": "sf44d06ca8224832827ea7fdff757013"
+    },
+    "displaytext": true,
+    "focusskin": null,
+    "id": "btnDelete",
+    "ide_onClick": "AS_Button_c1299eeb06b3407a997ff97ee269cd02",
+    "info": null,
+    "isvisible": true,
+    "kuid": "ba8a4daa00f7461a9f73b8c03c29b413",
+    "name": "kony.ui.Button",
+    "parent": "flxButtonsKA",
+    "pf": "frmUpdateExpenseKA",
+    "responsiveData": {
+        "b1": {
+            "width": {
+                "type": "string",
+                "value": "200dp"
+            }
+        }
+    },
+    "texti18n": "i18n.common.continue",
+    "tooltip": "Continue",
+    "wType": "Button",
+    "zindex": 1
+}

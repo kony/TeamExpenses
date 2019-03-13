@@ -1,0 +1,13 @@
+[ {
+  "sourceObject" : "expense",
+  "targetObject" : "employee_expense",
+  "relationshipKeys" : [ {
+    "sourceField" : "id",
+    "targetField" : "expenseID",
+    "etag" : "8edd40c4-a4f9-45f2-979d-62924959b72c"
+  } ],
+  "name" : "expense_employee_expense",
+  "type" : "OneToMany",
+  "custom" : false,
+  "cascadeDelete" : false
+} ]

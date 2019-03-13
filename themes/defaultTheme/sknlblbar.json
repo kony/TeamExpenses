@@ -1,0 +1,102 @@
+{
+  "android": {
+    "font_name": "FontAwesome",
+    "font_size": 18,
+    "isForked": true
+  },
+  "androidwearos": {
+    "font_name": "FontAwesome",
+    "font_size": 36,
+    "isForked": true
+  },
+  "background_color": "00000000",
+  "bg_type": "one",
+  "border_color": "424242ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "desktopweb": {
+    "font_name": "FontAwesome",
+    "font_size": 63,
+    "isForked": true
+  },
+  "fontSizeInPx": true,
+  "font_color": "424242ff",
+  "font_name": "Helvetica",
+  "font_size": 76,
+  "font_style": "normal",
+  "font_weight": "normal",
+  "ipad": {
+    "font_name": "FontAwesome",
+    "font_size": 36,
+    "isForked": true
+  },
+  "iphone": {
+    "font_name": "FontAwesome",
+    "font_size": 24,
+    "isForked": true
+  },
+  "isDefaultSkin": false,
+  "kiosk": {
+    "font_name": "FontAwesome",
+    "font_size": 63,
+    "isForked": true
+  },
+  "kuid": "s57ab9d565104a1787cf15e28cae9269",
+  "spaan": {
+    "font_name": "FontAwesome",
+    "font_size": 67,
+    "isForked": true
+  },
+  "spaandroidtablet": {
+    "font_name": "FontAwesome",
+    "font_size": 63,
+    "isForked": true
+  },
+  "spabb": {
+    "font_name": "FontAwesome",
+    "font_size": 77,
+    "isForked": true
+  },
+  "spaip": {
+    "font_name": "FontAwesome",
+    "font_size": 83,
+    "isForked": true
+  },
+  "spaipad": {
+    "font_name": "FontAwesome",
+    "font_size": 59,
+    "isForked": true
+  },
+  "spawindowstablet": {
+    "font_name": "FontAwesome",
+    "font_size": 59,
+    "isForked": true
+  },
+  "spawinphone8": {
+    "font_name": "FontAwesome",
+    "font_size": 83,
+    "isForked": true
+  },
+  "tabrcandroid": {
+    "font_name": "FontAwesome",
+    "font_size": 59,
+    "isForked": true
+  },
+  "wType": "Label",
+  "watchos": {
+    "font_name": "FontAwesome",
+    "font_size": 36,
+    "isForked": true
+  },
+  "windows8": {
+    "font_name": "FontAwesome",
+    "font_size": 24,
+    "isForked": true
+  },
+  "winphone8": {
+    "font_name": "FontAwesome",
+    "font_size": 33,
+    "isForked": true
+  }
+}

@@ -1,0 +1,36 @@
+{
+    "AS_Button_eb1c300ff46241b18a4d5e79c35612cc": {
+        "id": "AS_Button_eb1c300ff46241b18a4d5e79c35612cc",
+        "type": "ACTION_SEQUENCE",
+        "name": "OnClickAddCategory",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAddExpenseKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "fae161780bc84f63bb4cb9ba85243fc3"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c8b15e3308af4b4b8b311f971ddbb5a5",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmAddCategoryKA.tbxCategoryDesc.text = \"\";\nfrmAddCategoryKA.tbxCategoryName.text = \"\";",
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "NAVIGATE_TO_FORM___i018dc18b47e441da2f468e13a47c713",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmAddCategoryKA",
+            "formKUID": "h8a41268048e45d0a3ec1c7efd9d4738",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": ""
+        }]
+    }
+}

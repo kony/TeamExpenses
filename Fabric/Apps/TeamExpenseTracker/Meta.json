@@ -1,0 +1,13 @@
+{
+  "subType" : "customapp",
+  "description" : "TeamExpenseTracker",
+  "version" : "1.0",
+  "orchSvcs" : [ {
+    "name" : "testoch",
+    "version" : "1.0"
+  } ],
+  "objectSvcs" : [ {
+    "name" : "ExpenseTrackerOS",
+    "version" : "1.0"
+  } ]
+}

@@ -1,0 +1,13 @@
+{
+    "AS_AppEvents_d6e8dfc8d20e4128bd9e8e475bbcf3ac": {
+        "id": "AS_AppEvents_d6e8dfc8d20e4128bd9e8e475bbcf3ac",
+        "type": "ACTION_SEQUENCE",
+        "name": "OnPostAppInit",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": []
+    }
+}

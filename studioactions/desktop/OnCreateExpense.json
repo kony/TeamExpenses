@@ -1,0 +1,36 @@
+{
+    "AS_Button_h8438d2e270b47419308e54401d66766": {
+        "id": "AS_Button_h8438d2e270b47419308e54401d66766",
+        "type": "ACTION_SEQUENCE",
+        "name": "OnCreateExpense",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDashboardKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ef61e9dfc1d749058e1b77f5e4c92d8e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___j084678058a64753a2e41d7180bfb68e",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmAddExpenseKA",
+            "formKUID": "fae161780bc84f63bb4cb9ba85243fc3",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": ""
+        }, {
+            "id": "ADD_SNIPPET__b8e25219ce3e465c9d90867a15495889",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmAddExpenseKA.tbxAmount.text = \"\";\nfrmAddExpenseKA.tbxDescriptionNew.text = \"\";\nfrmAddExpenseKA.tbxExpenseName.text = \"\";",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

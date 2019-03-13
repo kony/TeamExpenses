@@ -1,0 +1,99 @@
+{
+    "android": {
+        "font_size": 40,
+        "isForked": false
+    },
+    "background_color": "ffffff00",
+    "bg_type": "one",
+    "border_color": "9797977f",
+    "border_radius": 5,
+    "border_style": "custom",
+    "border_type": 0,
+    "border_width": 2,
+    "desktopweb": {
+        "customCSS": "cursor:pointer !importam",
+        "font_name": "Lato-Regular",
+        "font_size": 142,
+        "isCustomCSSEnabled": true,
+        "isForked": true
+    },
+    "fontSizeInPx": true,
+    "font_color": "9797977f",
+    "font_name": "Helvetica",
+    "font_size": 142,
+    "font_style": "normal",
+    "font_weight": "normal",
+    "ipad": {
+        "font_size": 61,
+        "isForked": false
+    },
+    "iphone": {
+        "font_size": 61,
+        "isForked": false
+    },
+    "isDefaultSkin": false,
+    "kiosk": {
+        "font_size": 106,
+        "isForked": false
+    },
+    "kuid": "sa98c9725f534aa89bc97fbf889bfbc7",
+    "spaan": {
+        "customCSS": "cursor:pointer !importam",
+        "font_size": 142,
+        "isCustomCSSEnabled": true,
+        "isForked": true
+    },
+    "spaandroidtablet": {
+        "customCSS": "cursor:pointer !importam",
+        "font_size": 142,
+        "isCustomCSSEnabled": true,
+        "isForked": true
+    },
+    "spabb": {
+        "customCSS": "cursor:pointer !importam",
+        "font_size": 142,
+        "isCustomCSSEnabled": true,
+        "isForked": true
+    },
+    "spaip": {
+        "customCSS": "cursor:pointer !importam",
+        "font_size": 142,
+        "isCustomCSSEnabled": true,
+        "isForked": true
+    },
+    "spaipad": {
+        "customCSS": "cursor:pointer !importam",
+        "font_size": 142,
+        "isCustomCSSEnabled": true,
+        "isForked": true
+    },
+    "spawindowstablet": {
+        "customCSS": "cursor:pointer !importam",
+        "font_size": 142,
+        "isCustomCSSEnabled": true,
+        "isForked": true
+    },
+    "spawinphone8": {
+        "customCSS": "cursor:pointer !importam",
+        "font_size": 142,
+        "isCustomCSSEnabled": true,
+        "isForked": true
+    },
+    "tabrcandroid": {
+        "font_size": 101,
+        "isForked": false
+    },
+    "wType": "Calendar",
+    "watchos": {
+        "font_size": 61,
+        "isForked": false
+    },
+    "windows8": {
+        "font_size": 41,
+        "isForked": false
+    },
+    "winphone8": {
+        "font_size": 57,
+        "isForked": false
+    }
+}

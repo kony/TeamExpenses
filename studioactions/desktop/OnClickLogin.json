@@ -1,0 +1,29 @@
+{
+    "AS_Button_j2d541d7d9654394bb6b8478ab146895": {
+        "id": "AS_Button_j2d541d7d9654394bb6b8478ab146895",
+        "type": "ACTION_SEQUENCE",
+        "name": "OnClickLogin",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLoginKA",
+            "type": "forms",
+            "platform": null,
+            "KUID": "cf77e8f9e82544eeb9ae5d69b4ea161c"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___ib88713537ca442db2bcc6cee1764e4d",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "setup",
+            "display": "setup",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

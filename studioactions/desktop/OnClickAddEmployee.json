@@ -1,0 +1,36 @@
+{
+    "AS_Button_cba419bb0250418ab3c65d2b6f6f0222": {
+        "id": "AS_Button_cba419bb0250418ab3c65d2b6f6f0222",
+        "type": "ACTION_SEQUENCE",
+        "name": "OnClickAddEmployee",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDashboardKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ef61e9dfc1d749058e1b77f5e4c92d8e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c953ad1adee748efb31e969667c526aa",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmAddEmployeeKA.tbxEmployeeID.text = \"\";\nfrmAddEmployeeKA.tbxEmployeeName.text = \"\";",
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "NAVIGATE_TO_FORM___hcc1c7d334d04bea84f016577e4b1842",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmAddEmployeeKA",
+            "formKUID": "d7606edd3b744e14ae03a86a3edd709f",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": ""
+        }]
+    }
+}

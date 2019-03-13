@@ -1,0 +1,29 @@
+{
+    "AS_Button_b07c186472204743ba67470012e799df": {
+        "id": "AS_Button_b07c186472204743ba67470012e799df",
+        "type": "ACTION_SEQUENCE",
+        "name": "OnClickSearch",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDashboardKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ef61e9dfc1d749058e1b77f5e4c92d8e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___f13f106247a34badbb9d3ad8cc24f5a1",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "searchByEmployeeName",
+            "display": "searchByEmployeeName",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

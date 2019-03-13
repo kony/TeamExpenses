@@ -1,0 +1,8 @@
+{
+  "config" : {
+    "metadataSecurity" : "public",
+    "offline" : true,
+    "uploadCache" : false,
+    "conflict_policy" : "none"
+  }
+}

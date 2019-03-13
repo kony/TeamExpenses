@@ -1,0 +1,29 @@
+{
+    "AS_Button_d3d28f42b09f48699c436644e006612c": {
+        "id": "AS_Button_d3d28f42b09f48699c436644e006612c",
+        "type": "ACTION_SEQUENCE",
+        "name": "OnClickCreateEmployee",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAddEmployeeKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d7606edd3b744e14ae03a86a3edd709f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___c13ed8f4c08f4afdbd6d53d26b6f6078",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "createEmployee",
+            "display": "createEmployee",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

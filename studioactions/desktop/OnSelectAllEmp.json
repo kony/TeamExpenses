@@ -1,0 +1,35 @@
+{
+    "AS_Image_h6cf9d11efdd4c1aa59e83e47b72d0b6": {
+        "id": "AS_Image_h6cf9d11efdd4c1aa59e83e47b72d0b6",
+        "type": "ACTION_SEQUENCE",
+        "name": "OnSelectAllEmp",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "imagesrc"
+        }, {
+            "datatype": "boolean",
+            "name": "issuccess"
+        }],
+        "contextObj": {
+            "name": "frmUpdateExpenseKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ebb6482c86734fcb8209b4f564911136"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___b3364a409c424de4afa543f3a3fce215",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "selectAll",
+            "display": "selectAll",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

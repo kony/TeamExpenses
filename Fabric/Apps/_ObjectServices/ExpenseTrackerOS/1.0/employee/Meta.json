@@ -1,0 +1,67 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "create" : "createMapping",
+    "update" : "updateMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "UpdateTimeStampField" : {
+      "DateFormat" : "",
+      "Name" : "LastUpdatedDateTime"
+    },
+    "SoftDeleteFlagField" : {
+      "ActiveValue" : "false",
+      "InactiveValue" : "true",
+      "Name" : "SoftDeleteFlag"
+    },
+    "backendMeta" : {
+      "backendObjectName" : "employee",
+      "qualifiedName" : "expense.employee",
+      "metadataformatterobject" : "{\"name\":\"employee\",\"displayName\":\"employee\",\"qualifiedName\":\"expense.employee\",\"schemaName\":\"expense\",\"tableName\":\"employee\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "employee",
+      "qualifiedName" : "expense.employee",
+      "metadataformatterobject" : "{\"name\":\"employee\",\"displayName\":\"employee\",\"qualifiedName\":\"expense.employee\",\"schemaName\":\"expense\",\"tableName\":\"employee\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "LastUpdatedBy",
+    "targetField" : "LastUpdatedBy",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "CreatedBy",
+    "targetField" : "CreatedBy",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "name",
+    "targetField" : "name",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "id",
+    "targetField" : "id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "isAdmin",
+    "targetField" : "isAdmin",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "SoftDeleteFlag",
+    "targetField" : "SoftDeleteFlag",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "CreatedDateTime",
+    "targetField" : "CreatedDateTime",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "LastUpdatedDateTime",
+    "targetField" : "LastUpdatedDateTime",
+    "type" : "request_response"
+  } ]
+}

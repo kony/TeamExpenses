@@ -1,0 +1,29 @@
+{
+    "AS_Button_e8be0cde50394f0ca946758fa34146c9": {
+        "id": "AS_Button_e8be0cde50394f0ca946758fa34146c9",
+        "type": "ACTION_SEQUENCE",
+        "name": "OnClickReset",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDashboardKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ef61e9dfc1d749058e1b77f5e4c92d8e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___i9233be7f8834f35bbf20022bf1da172",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "reset",
+            "display": "reset",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}
