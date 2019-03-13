@@ -8,10 +8,10 @@ In this app the user can perform following operations :
 * Add Expenses
 * Update Expenses
 * Settle up the expenses
-* And analyse the expense trend of the team
+* And analyse the expense trend of the team.
 
 ## Requirement
 
-In order to build and run this app, you’ll need
+In order to build and run this app, you’ll need,
 * Kony Visualizer Enterprise V8SP4 
 * Kony Fabric V8SP4
