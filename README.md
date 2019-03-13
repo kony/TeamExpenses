@@ -1,6 +1,7 @@
 ## Description
 
 TeamExpenseTracker app is a Progressive Web App (PWA) supporting Offline Objects. This app is aimed at demonstrating the offline capabilities of a Kony web app using Service Workers and Offline Objects. This app is built to track and distribute expenses of a group or team. 
+
 In this app the user can perform following operations :
 * Add Employee 
 * Add Expense Category
